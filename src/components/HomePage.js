@@ -2,27 +2,28 @@ import React from 'react'
 import reactImage from "./Images/react.png";
 import jsImage from "./Images/js.png";
 import firebaseImage from "./Images/firebase.jpg";
-import profileImage from "./Images/sibainu.jpg";
+import bordImage from "./Images/bord.png";
+import washitsuImage from "./Images/room_washitsu.png";
+import bathImage from "./Images/room_unit_bath.png";
+import kabegamiImage from "./Images/kabegami_haru.png";
+import koujiImage from "./Images/animal_chara_mogura_kouji.png";
+import tenjouImage from "./Images/tenjou.jpg";
+
 const HomePage = () => {
   return (
     
     <div className="container text-center">
     <h1>田中室内装飾</h1>
 
-    <img src={profileImage} alt="" className="profileImage" />
+    <img src={bordImage} alt="" className="bordImage" />
 
     <p>
-      ShinCodeです普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
-      ShinCodeです。普段は個人でWeb系の情報発信をYoutubeやTwitterにて行っています。主にHTML/CSS/Javascript/Reactメインに取り扱っています。趣味は個人でプログラミングの撮影を行うことです。
+      内装ならお任せあれ！
     </p>
 
     <section class="page-section" id="services">
-      <div className="service">
+      {/* <div className="service">
         <div class="text-center">
-          <h2 class="section-heading text-uppercase">PORTFOLIO</h2>
-          <h3 class="section-subheading text-muted mb-5">
-            私が作った作品一覧です
-          </h3>
         </div>
         <div class="row text-center">
           <div class="col-md-4">
@@ -30,12 +31,7 @@ const HomePage = () => {
               <i class="fas fa-circle fa-stack-2x text-primary"></i>
               <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 class="my-3">ECサイト</h4>
-            <p class="text-muted">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-              maxime quam architecto quo inventore harum ex magni, dicta
-              impedit.
-            </p>
+            
           </div>
           <div class="col-md-4">
             <span class="fa-stack fa-4x">
@@ -65,24 +61,29 @@ const HomePage = () => {
       </div>
     </section>
 
-    <section id="skill">
+    <section id="skill"> */}
       <div class="text-center">
-        <h1 class="title">スキル</h1>
+        <h1 class="title">取扱業務</h1>
         <div class="row text-center">
           <div class="col-md-4 services">
-            <img src={reactImage} />
-            <h4>React</h4>
-            <p>Reactがつかえます</p>
+            <img src={tenjouImage} />
+            <h4>天井・床仕上げ工事</h4>
           </div>
           <div class="col-md-4 services">
-            <img src={jsImage} />
-            <h4>HTML/CSS</h4>
-            <p>HTML/CSSがつかえます</p>
+            <img src={kabegamiImage} />
+            <h4>壁張り工事</h4>
           </div>
           <div class="col-md-4 services">
-            <img src={firebaseImage} alt=''/>
-            <h4>Firebase</h4>
-            <p>Firebaseがつかえます</p>
+            <img src={washitsuImage} alt=''/>
+            <h4>たたみ・ふすま工事</h4>
+          </div>
+          <div class="col-md-4 services">
+            <img src={bathImage} alt=''/>
+            <h4>ユニットバス工事</h4>
+          </div>
+          <div class="col-md-4 services">
+            <img src={koujiImage} alt=''/>
+            <h4>その他内装工事</h4>
           </div>
         </div>
         <button type="button" class="btn btn-primary">
