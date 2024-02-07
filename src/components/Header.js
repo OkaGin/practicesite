@@ -10,7 +10,7 @@ const Header = () => {
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="mr-auto">
-                        <Nav.Link href="/HomePage">ホーム</Nav.Link>
+                        <Nav.Link href="/">ホーム</Nav.Link>
                         <Nav.Link href="/CompanyPage">会社概要</Nav.Link>
                         <Nav.Link href="/WorkPage">取扱業務</Nav.Link>
                         <Nav.Link href="/AccessPage">アクセス</Nav.Link>
