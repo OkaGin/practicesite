@@ -90,3 +90,9 @@ img {
 #skill button {
   margin-bottom: 100px;
 }
+
+.leaflet-container {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}

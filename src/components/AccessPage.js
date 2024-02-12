@@ -1,9 +1,14 @@
-import React from 'react'
+import { Map } from "./Map"
 
-const AccessPage = () => {
-  return (
-    <div>AccessPage</div>
-  )
+
+function AccessPage() {
+const position = [35.568327,139.628342
+]
+        
+return (
+
+  <Map />
+)
 }
 
 export default AccessPage
