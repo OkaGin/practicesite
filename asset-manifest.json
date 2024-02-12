@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/practicesite/static/css/main.22250219.css",
+    "main.js": "/practicesite/static/js/main.bc4ce728.js",
+    "static/media/bord.png": "/practicesite/static/media/bord.5184557535c65e8445e3.png",
+    "static/media/building_kaisya.png": "/practicesite/static/media/building_kaisya.93f7505a334d34ddacc2.png",
+    "static/media/smartphone_map_app_man.png": "/practicesite/static/media/smartphone_map_app_man.d642af8ccfbbd7cae214.png",
+    "static/media/keiyaku_contract.png": "/practicesite/static/media/keiyaku_contract.7e27bde4b5032e6f3803.png",
+    "static/media/medical_contact_finger.png": "/practicesite/static/media/medical_contact_finger.6513d78e051378f5defc.png",
+    "static/media/room_washitsu.png": "/practicesite/static/media/room_washitsu.b74e6c13aa9d109503d2.png",
+    "static/media/kabegami_haru.png": "/practicesite/static/media/kabegami_haru.a47d8556359bb82d96f0.png",
+    "static/media/room_unit_bath.png": "/practicesite/static/media/room_unit_bath.da5db124e75ed1ad8818.png",
+    "static/media/animal_chara_mogura_kouji.png": "/practicesite/static/media/animal_chara_mogura_kouji.6ef50a4ba8b6d2ca9c88.png",
+    "static/media/react.png": "/practicesite/static/media/react.5be46e1d4c29661f3347.png",
+    "index.html": "/practicesite/index.html",
+    "main.22250219.css.map": "/practicesite/static/css/main.22250219.css.map",
+    "main.bc4ce728.js.map": "/practicesite/static/js/main.bc4ce728.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.22250219.css",
+    "static/js/main.bc4ce728.js"
+  ]
+}
