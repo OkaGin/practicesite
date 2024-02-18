@@ -3,9 +3,9 @@ import React from 'react'
 import { Navbar,Nav } from 'react-bootstrap'
 const Header = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect className='sticky-top' expand="lg" bg="dark" variant="dark">
       <Navbar.Brand href="/">
-      田中室内装飾
+      タナカ室内装飾
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
