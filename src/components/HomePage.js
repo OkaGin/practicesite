@@ -10,12 +10,16 @@ import kaisyaImage from "./Images/building_kaisya.png";
 import contactImage from "./Images/medical_contact_finger.png";
 import mappImage from "./Images/smartphone_map_app_man.png";
 import { Navbar,Nav } from 'react-bootstrap'
+import {motion} from "framer-motion";
 
 
 const HomePage = () => {
   return (
 
-    <div className="container text-center">
+    <motion.div className="container text-center"
+    initial={{opacity:0}}
+    animate={{opacity:1}}
+    transition={{duration:0.8,delay:0.8}}>
       <h1>タナカ室内装飾</h1>
 
       <img src={bordImage} alt="" className="bordImage" />
@@ -56,7 +60,7 @@ const HomePage = () => {
         </div>
 
       </section>
-    </div>
+    </motion.div>
 
   )
 }

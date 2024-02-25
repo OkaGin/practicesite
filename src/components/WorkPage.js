@@ -8,9 +8,14 @@ import bathImage from "./Images/room_unit_bath.png";
 import kabegamiImage from "./Images/kabegami_haru.png";
 import koujiImage from "./Images/animal_chara_mogura_kouji.png";
 import tenjouImage from "./Images/tenjou.jpg";
+import {motion} from "framer-motion";
+
 const WorkPage = () => {
   return (
-    <div className="container text-center">
+    <motion.div className="container text-center"
+    initial={{x:100}}
+    animate={{ x:0 }}
+    transition={{ type: "spring", stiffness: 100 }}>
       <section class="page-section" id="services">
         <div class="text-center">
           <h1 class="title">取扱業務</h1>
@@ -39,7 +44,7 @@ const WorkPage = () => {
         </div>
 
       </section>
-    </div>
+    </motion.div>
   )
 }
 

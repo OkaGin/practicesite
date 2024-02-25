@@ -97,8 +97,4 @@ img {
   margin: 10px;
   z-index:0;
 }
-.footer_bottom {
-  position: absolute;
-  bottom: 0;
-  width:100%;
-}
+
